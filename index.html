@@ -41,7 +41,7 @@
       
     }
   </style>
-  <title>days-since-a-loop-has-been-written-by-</title>
+  <title>days-since-a-let-has-been-written-by-</title>
 </head>
 <body>
     
@@ -49,7 +49,7 @@
   <script>
     const data = {
       person: 'johnny',
-      lastDate: '2019-12-17'
+      lastDate: '2020-01-07'
     }
     const getNumDays = () => {
       const date1 = new Date(data.lastDate);
@@ -58,7 +58,7 @@
       return Math.ceil(timeDiff / (1000 * 3600 * 24)) - 1;
     }
     document.body.innerHTML = `<div class="jumbo" id="render-container">
-it has been <em>${getNumDays()}</em> days since a <em>loop</em> has been written by <em>${data.person}</em>
+it has been <em>${getNumDays()}</em> days since a <em>let</em> has been written by <em>${data.person}</em>
 </div>`;
   </script>
 </body>
